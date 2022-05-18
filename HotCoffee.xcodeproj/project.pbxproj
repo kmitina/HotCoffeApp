@@ -17,6 +17,7 @@
 		F07B9D0F2832BB1D0074A82C /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07B9D0E2832BB1D0074A82C /* WebService.swift */; };
 		F07B9D122833CDAE0074A82C /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07B9D112833CDAE0074A82C /* Order.swift */; };
 		F07B9D152833EAFC0074A82C /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07B9D142833EAFC0074A82C /* OrderViewModel.swift */; };
+		F07B9D172834F0C40074A82C /* AddCoffeeOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07B9D162834F0C40074A82C /* AddCoffeeOrderViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		F07B9D0E2832BB1D0074A82C /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		F07B9D112833CDAE0074A82C /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		F07B9D142833EAFC0074A82C /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
+		F07B9D162834F0C40074A82C /* AddCoffeeOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				F07B9D142833EAFC0074A82C /* OrderViewModel.swift */,
+				F07B9D162834F0C40074A82C /* AddCoffeeOrderViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F07B9D122833CDAE0074A82C /* Order.swift in Sources */,
+				F07B9D172834F0C40074A82C /* AddCoffeeOrderViewModel.swift in Sources */,
 				F07B9CF5283283700074A82C /* AppDelegate.swift in Sources */,
 				F07B9CF7283283700074A82C /* SceneDelegate.swift in Sources */,
 				F07B9D0A283284FD0074A82C /* OrdersTableViewController.swift in Sources */,
