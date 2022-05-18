@@ -85,14 +85,6 @@
                                     <outlet property="delegate" destination="2sO-1G-wwf" id="kWX-3M-WsS"/>
                                 </connections>
                             </tableView>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="7WF-Yj-MLq">
-                                <rect key="frame" x="104" y="530" width="206" height="32"/>
-                                <segments>
-                                    <segment title="Small"/>
-                                    <segment title="Medium"/>
-                                    <segment title="Large"/>
-                                </segments>
-                            </segmentedControl>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="O2G-BU-cmS">
                                 <rect key="frame" x="107" y="600" width="200" height="40"/>
                                 <constraints>
@@ -117,14 +109,12 @@
                         <constraints>
                             <constraint firstItem="O2G-BU-cmS" firstAttribute="centerX" secondItem="APm-8M-St7" secondAttribute="centerX" id="QLO-s2-6Zt"/>
                             <constraint firstItem="2q3-Zh-OEz" firstAttribute="height" secondItem="Kyb-jE-DHe" secondAttribute="height" multiplier="0.5" id="RbO-3t-TbL"/>
-                            <constraint firstItem="7WF-Yj-MLq" firstAttribute="top" secondItem="2q3-Zh-OEz" secondAttribute="bottom" constant="53" id="XMZ-JJ-p6y"/>
+                            <constraint firstItem="O2G-BU-cmS" firstAttribute="top" secondItem="2q3-Zh-OEz" secondAttribute="bottom" constant="123" id="YOX-c6-ouo"/>
                             <constraint firstItem="2q3-Zh-OEz" firstAttribute="width" secondItem="Kyb-jE-DHe" secondAttribute="width" id="bBi-J9-WP5"/>
                             <constraint firstItem="PtN-tN-6xa" firstAttribute="top" secondItem="O2G-BU-cmS" secondAttribute="bottom" constant="10" id="d5Z-5S-r25"/>
                             <constraint firstItem="2q3-Zh-OEz" firstAttribute="top" secondItem="APm-8M-St7" secondAttribute="top" id="izc-Eg-J6u"/>
                             <constraint firstItem="PtN-tN-6xa" firstAttribute="centerX" secondItem="APm-8M-St7" secondAttribute="centerX" id="jfA-hX-Dcr"/>
                             <constraint firstItem="2q3-Zh-OEz" firstAttribute="leading" secondItem="APm-8M-St7" secondAttribute="leading" id="sRt-M5-zco"/>
-                            <constraint firstItem="7WF-Yj-MLq" firstAttribute="centerX" secondItem="APm-8M-St7" secondAttribute="centerX" id="uqi-rc-DaG"/>
-                            <constraint firstItem="O2G-BU-cmS" firstAttribute="top" secondItem="7WF-Yj-MLq" secondAttribute="bottom" constant="39" id="yhs-jq-6ri"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Add New Order" id="gC1-oQ-3kN">
