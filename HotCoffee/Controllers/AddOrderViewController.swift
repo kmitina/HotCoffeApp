@@ -72,6 +72,13 @@ class AddOrderNewController: UIViewController, UITableViewDelegate, UITableViewD
         self.vm.selectedSize = selectedSize
         self.vm.selectedType = self.vm.types[indexPath.row]
         
-        
+        WebService().load(resource: Order.create(vm: self.vm)) { result in
+            switch result {
+            case .success(let order):
+                print(order)
+            case .failure(let error):
+                print(error)
+            }
+        }
     }
 }
