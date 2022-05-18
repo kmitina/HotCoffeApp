@@ -24,6 +24,14 @@ class AddOrderNewController: UIViewController, UITableViewDelegate, UITableViewD
 //        self.tableView.dataSource = self
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.cellForRow(at: indexPath)?.accessoryType = .checkmark
+    }
+    
+    func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+        tableView.cellForRow(at: indexPath)?.accessoryType = .none
+    }
+    
     private func  setupUI() {
         
         self.coffeeSizesSegmentedControl = UISegmentedControl(items: self.vm.sizes)
